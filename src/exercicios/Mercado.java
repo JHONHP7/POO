@@ -8,7 +8,6 @@ public class Mercado {
 		        // Criando alguns produtos
 		        Produto arroz = new Produto("Arroz", 10.0, 50);
 		        Produto feijao = new Produto("Feijão", 8.0, 40);
-		        System.err.println(arroz.getNome());
 
 		        // Criando itens de pedido
 		        ItemPedido item1 = new ItemPedido(arroz, 2);
