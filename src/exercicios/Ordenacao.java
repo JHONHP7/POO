@@ -13,6 +13,9 @@ public class Ordenacao {
         
         System.out.println("Vetor ordenado:");
         imprimirVetor(vetor);
+        System.out.println(vetor.length);
+        //int numero = 34234;
+        //System.out.println(String.valueOf(numero).length());
     }
     
     public static int[] gerarVetorAleatorio(int tamanho) {

@@ -22,10 +22,10 @@ public class EquacaoSegundoGrau {
 		if(delta > 0) {
 			double raiz1 = (-b + Math.sqrt(delta))/2*a;
 			double raiz2 = (-b - Math.sqrt(delta))/2*a;
-			System.out.println("As raízes da equação são "+raiz1+" e "+ raiz2);
+			System.out.printf("As raízes da equação são %.2f e %.2f",raiz1, raiz2);
 		}else if(delta == 0){
 			double raiz = (-b /(2 * a));
-			System.out.println("A raizda equação é "+raiz);
+			System.out.printf("A raiz é %.2f",raiz);
 		}else {
 			System.out.println("A equação são possui raízes reais!");
 		}

@@ -12,8 +12,9 @@ public class IdentificarDefeito {
  x2 = teclado.nextFloat();
  y2 = teclado.nextFloat();
  
- distancia = Math.pow(Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2), 1/2);
- System.out.println("A distância é: " + distancia);
+ distancia = Math.pow(Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2), 0.5);
+ System.out.printf("A distância é: %.2f ", distancia);
+ //System.out.println(String.valueOf(distancia).length());
  teclado.close();
  }
 }
